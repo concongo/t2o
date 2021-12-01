@@ -25,6 +25,7 @@ La App está basada en el framework  de Django. Por lo que **una vez activado el
 ### **Uso de la App**
 
 _** Importante: Todos los comandes deben de ser ejecutados desde la carpeta `t2o`_
+
 1. Carga de las Ordenes L3
 
 Para cargar las órdenes desde la API, deberá ejecutar el siguiente comando:
@@ -91,7 +92,7 @@ ____
 * Ya que he incluido los campos `created_at` y `updated_at`, asumiendo que el proceso pueda ser ejecutado automáticamente cada cierto tiempo, sería interesante a la hora de calcular las estadísticas limitarlas por fecha de cuando se registro la orden en la base de datos, por ejemplo.
 ______
 ### Ejemplos de Respuestas
-```
+````
 ->localhost:8000/api/v1/stats/BTC-USD/asks/
 
 {
@@ -114,6 +115,7 @@ ______
     }
 }
 ````
+
 ````
 -> localhost:8000/api/v1/stats/BTC-USD/bids/
 
